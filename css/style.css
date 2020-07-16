@@ -11,7 +11,12 @@
 
 
 /* Section 1 ===============================*/
-  
+  .section-1{
+    height: 550px;
+
+  }
+
+
   .pen {
     margin: 0 auto;
     width: 100%;
@@ -20,13 +25,21 @@
   
   .box {
     margin-left: 15em;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background: var(--pink);
   }
 
-  .text-box
+  .text-box{
+    position: relative;
+    left: 1em;
+    right: 2.5em;
+    top: 2.2em;
+    font-size: 25px;
+    color: white;
+    text
+  }
   
 
 
