@@ -1,0 +1,40 @@
+/*General style
+
+1.Navbar
+2.Section 1
+3.Section 2
+
+*/
+
+/*Navbar styles*/
+
+
+
+/* Section 1 ===============================*/
+  
+  .pen {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .box {
+    margin-left: 15em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: var(--pink);
+  }
+
+  .text-box
+  
+
+
+/*======================== Section 2 */
+
+.card{
+    margin: 0px;
+    margin-top: -50px;
+    padding: 0px;
+    border: 0px none;  
+}
