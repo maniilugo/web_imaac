@@ -1,47 +1,61 @@
 /*General style
 0. google fonts
 1.Navbar
-2.Section 1
-3.Section 2
-4.Section 3
-5.Footer 
+2.Header
+3.Section 1
+4.Section 2
+5.Section 3
+6.Footer 
 
 */
 
 /*Google Fonts*/
 
 h1{
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 
 }
 h2{
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 
 }
 h3{
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+
 
 }
 h4{
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+
 
 }
 h5{
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+
 
 }
 h6{
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+
 
 }
 
 p{
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+
 
 }
 
 
 /*Navbar styles*/
+
+
+/*Header ===================================*/
+
+h2.welcome-text{
+  font-size: 65px;
+  margin-left: 2em;
+}
 
 
 
@@ -99,6 +113,7 @@ h5.card-font{
 /*================Footer====================*/
 
 .footer-row{
+  margin-top: 10em;
   height: 350px;
 }
 

@@ -10,7 +10,11 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <!--general styles-->
     <link rel="stylesheet" href="css/style.css" />
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
 
     <title>Imaac web</title>
   </head>
@@ -57,23 +61,6 @@
     </nav>
     <!--Navbar end-->
 
-    <!--Typed script-->
-    <script>
-      import Typed from "typed.js";
-
-      var options = {
-        strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
-        typeSpeed: 40,
-      };
-
-      var typed = new Typed(".element", options);
-
-      var typed = new Typed("#typed", {
-        stringsElement: "#typed-strings",
-      });
-    </script>
-    <!--Typed script end-->
-
     <main>
       <!--section 1-->
       <div class="container-fluid">
@@ -81,11 +68,7 @@
           <div
             class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center text-center"
           >
-            <div id="typed-strings">
-              <p>Typed.js is a <strong>JavaScript</strong> library.</p>
-              <p>It <em>types</em> out sentences.</p>
-            </div>
-            <span id="typed"></span>
+          <h2 class="display-2 welcome-text"><span class="type"></span></h2>
           </div>
           <div
             class="col-lg-6 col-md-6 col-sm-12 mb-5 d-flex align-items-center"
@@ -110,17 +93,13 @@
       <div class="container-fluid mt-5">
         <div class="row">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe
-              class="embed-responsive-item"
-              src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
-              allowfullscreen
-            ></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QsY8fnvMn6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
 
       <!--Work proyects section 1-->
-      <div class="container mt-5">
+      <div class="container-fluid mt-5">
         <div class="row mt-5 mb-5">
           <div class="col-sm-12 col-md-6 col-lg-6 mt-2 revealCard">
             <img
@@ -159,7 +138,7 @@
           <!--Work proyect section 2-->
           <div class="col-sm-12 col-md-6 col-lg-6 mt-2 revealCard">
             <img
-              src="https://images.pexels.com/photos/1170412/pexels-photo-1170412.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?cs=srgb&dl=boligrafo-concentrarse-cuaderno-de-madera-196644.jpg&fm=jpg"
               class="img-fluid"
               alt="Responsive image"
             />
@@ -173,6 +152,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-sm-12 col-md-6 col-lg-6 mt-5 revealCard">
             <img
               src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
@@ -231,7 +211,7 @@
         <div class="container-fluid">
           <div class="footer-row row">
             <div
-              class="col-4 mt-5 mb-5 shadow-sm p-3 mb-5 bg-white rounded text-center align-middle"
+              class="col-4 mt-5 mb-5 text-center align-middle"
             >
               <h3 class="mb-4">New Bussines</h3>
               <p class="footer-text">
@@ -240,7 +220,7 @@
               </p>
             </div>
             <div
-              class="col-4 mt-5 mb-5 shadow-sm p-3 mb-5 bg-white rounded text-center"
+              class="col-4 mt-5 mb-5 text-center"
             >
               <h3 class="mb-4">Speak to Us</h3>
               <p class="footer-text">
@@ -249,7 +229,7 @@
               </p>
             </div>
             <div
-              class="col-4 mt-5 mb-5 shadow-sm p-3 mb-5 bg-white rounded text-center"
+              class="col-4 mt-5 mb-5 text-center"
             >
               <h3 class="mb-4">Headquarters</h3>
               <p class="footer-text">
@@ -269,9 +249,23 @@
       </footer>
     </main>
 
-    <!--CDN javascript bootsrtap-->
-    <!--Typed.js CDN-->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+     <!--Typed.js-->
+     <script src="js/typed.js"></script>
+     
+     <script>
+ var typed = new Typed('.type', {
+      strings: [
+        'Bienvenido',
+        'Welcome',  
+        'a Imaac Marketing Group'
+      ],
+     typeSpeed:60,
+     backSpeed:60,
+     loop:true
+    });
+     </script>
+    
     <!--Bootstrap CDN-->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
