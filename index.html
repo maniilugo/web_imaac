@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
- 
+
     <title>Imaac web</title>
   </head>
 
@@ -57,6 +57,23 @@
     </nav>
     <!--Navbar end-->
 
+    <!--Typed script-->
+    <script>
+      import Typed from "typed.js";
+
+      var options = {
+        strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+        typeSpeed: 40,
+      };
+
+      var typed = new Typed(".element", options);
+
+      var typed = new Typed("#typed", {
+        stringsElement: "#typed-strings",
+      });
+    </script>
+    <!--Typed script end-->
+
     <main>
       <!--section 1-->
       <div class="container-fluid">
@@ -64,7 +81,11 @@
           <div
             class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center text-center"
           >
-            <h1 class="display-2 pl-5">Hola Amigo</h1>
+            <div id="typed-strings">
+              <p>Typed.js is a <strong>JavaScript</strong> library.</p>
+              <p>It <em>types</em> out sentences.</p>
+            </div>
+            <span id="typed"></span>
           </div>
           <div
             class="col-lg-6 col-md-6 col-sm-12 mb-5 d-flex align-items-center"
@@ -91,7 +112,7 @@
           <div class="embed-responsive embed-responsive-16by9">
             <iframe
               class="embed-responsive-item"
-              src="https://youtu.be/sPMRRx5b0KM"
+              src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
               allowfullscreen
             ></iframe>
           </div>
@@ -206,10 +227,52 @@
         <!--row end-->
       </div>
       <!--container end-->
+      <footer>
+        <div class="container-fluid">
+          <div class="footer-row row">
+            <div
+              class="col-4 mt-5 mb-5 shadow-sm p-3 mb-5 bg-white rounded text-center align-middle"
+            >
+              <h3 class="mb-4">New Bussines</h3>
+              <p class="footer-text">
+                Start a project <br />
+                bussines@imaac.mx
+              </p>
+            </div>
+            <div
+              class="col-4 mt-5 mb-5 shadow-sm p-3 mb-5 bg-white rounded text-center"
+            >
+              <h3 class="mb-4">Speak to Us</h3>
+              <p class="footer-text">
+                +52 (449) 123 456 <br />
+                hola@imaac.mx
+              </p>
+            </div>
+            <div
+              class="col-4 mt-5 mb-5 shadow-sm p-3 mb-5 bg-white rounded text-center"
+            >
+              <h3 class="mb-4">Headquarters</h3>
+              <p class="footer-text">
+                Guanajuato 210-B Fraccionamiento del Valle <br />
+                Aguascalientes, México
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container mb-3 p-2">
+          <p class="float-right">
+            <a href="#" class="mr-3">Facebook</a
+            ><a href="#" class="mr-3">Twitter</a> <a href="#">LinkedIn</a>
+          </p>
+          <p>IMAAC MARKETING GROUP <a href="">Privacidad</a></p>
+        </div>
+      </footer>
     </main>
 
-
     <!--CDN javascript bootsrtap-->
+    <!--Typed.js CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <!--Bootstrap CDN-->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
