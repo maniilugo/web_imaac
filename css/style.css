@@ -95,10 +95,10 @@ h2.welcome-text{
   }
   
   .area {
-    width: 300px;
+    width: 450px;
     height: 300px;
     margin-left: 100px;
-    border-bottom: 3px solid var(--pink);
+    border-bottom: 5px solid red;
     display: flex;
     align-items: flex-end;
     justify-content: center;
