@@ -1,3 +1,3 @@
 "use strict";
 
-ScrollReveal().reveal(".revealCard", { delay: 500 });
+ScrollReveal().reveal(".revealCard",{ delay: 600 });
