@@ -56,6 +56,30 @@ a:hover{
   cursor:pointer;
 }
 
+.btn{
+  border: none;
+  background-color: red;
+  font-family:'Oxygen', sans-serif;
+  font-weight: lighter;
+}
+
+.btn:hover{
+  background-color: black;
+  transition-duration: 1s;
+  transition-timing-function: none;
+}
+
+.btn-primary{
+  background-color: red;
+  border: none;
+
+}
+
+.btn-lg{
+  width: 12em;
+  height: 3em;
+  font-size: 20px;
+}
 
 /*Navbar styles*/
 
@@ -69,8 +93,12 @@ h2.welcome-text{
   color: white;
   font-size: 60px;
   margin-left: 2em;
+  
 }
 
+.img-heading{
+  height: 250px;
+}
 
 
 /* Section 1 ===============================*/
