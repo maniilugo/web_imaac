@@ -59,8 +59,12 @@ a:hover{
 
 
 /*Header ===================================*/
+.header-section{
+  
+}
 
 h2.welcome-text{
+  color: white;
   font-size: 60px;
   margin-left: 2em;
 }
@@ -69,8 +73,9 @@ h2.welcome-text{
 
 /* Section 1 ===============================*/
   .section-1{
-    height: 550px;
-
+    padding: 0px;
+    height: 595px;
+    background-color: red;
   }
   
 /*Tap ball*/
