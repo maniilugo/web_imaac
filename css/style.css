@@ -12,36 +12,36 @@
 /*Google Fonts*/
 
 h1{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Sora', sans-serif;
 
 }
 h2{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Sora', sans-serif;
 
 }
 h3{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Sora', sans-serif;
 
 
 }
 h4{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Sora', sans-serif;
 
 
 }
 h5{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Sora', sans-serif;
 
 
 }
 h6{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Sora', sans-serif;
 
 
 }
 
 p{
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Sora', sans-serif;
 
 
 }
@@ -59,7 +59,7 @@ a:hover{
 .btn{
   border: none;
   background-color: red;
-  font-family:'Oxygen', sans-serif;
+  font-family: 'Sora', sans-serif;
   font-weight: lighter;
 }
 
