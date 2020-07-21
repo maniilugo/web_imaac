@@ -9,6 +9,12 @@
 
 */
 
+body{
+  font-family: 'Sora', sans-serif;
+  padding: auto;
+  margin: auto;
+}
+
 /*Google Fonts*/
 
 h1{
