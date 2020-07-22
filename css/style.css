@@ -113,37 +113,49 @@ h2.welcome-text{
     height: 795px;
     background-color: red;
   }
+
+
+  .work-video{
+    width: 850px;
+    height: 822px;
+  }
+
+
   
-/*Balls==========================*/
 
-.balls {
-  display: flex;
-  align-items: stretch;
-  height: 75px;
-  position: relative;
-  
-  .ball {
-    background: var(--purple);
-    border-radius: 50%;
-    margin-right: 15px;
-    flex: 0 0 75px;
 
-    &:nth-child(4n + 2) {
-      background: var(--green);
-    }
-
-    &:nth-child(4n + 3) {
-      background: var(--pink);
-    }
-
-    &:nth-child(4n + 4) {
-      background: var(--blue);
-    }
+ /*========================= Menor a 600px ===========================*/ 
+  @media only screen and (max-width: 600px) {
+    .work-video{
+      width: 350px;
+      height: 222px;
   }
 }
 
- 
-    
+/*========================= Menor a 768px ===========================*/ 
+@media only screen and (max-width: 768px) {
+  .work-video{
+    width: 780px;
+    height: 452px;
+}
+}
+
+/*========================= Menor a 992px ===========================*/ 
+@media only screen and (max-width: 992px) {
+  .work-video{
+    width: 450px;
+    height: 322px;
+}
+}
+
+/*========================= Menor a 992px ===========================*/ 
+@media only screen and (max-width: 1200px) {
+  .work-video{
+    width: 550px;
+    height: 322px;
+}
+}
+
 
 
 /*======================== Section 2 */
@@ -154,6 +166,7 @@ h2.welcome-text{
     padding: 0px;
     border: 0px none;  
 }
+
 
 h5.card-font{
   margin-bottom: 5px;
@@ -191,4 +204,8 @@ a.agency-privacy{
 a.agency-privacy:hover{
   color: black;
   cursor: pointer;
+}
+
+.footer-social{
+  margin-top: 2em;
 }
