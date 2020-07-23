@@ -114,9 +114,59 @@ h2.welcome-text{
     background-color: red;
   }
 
-  .col-lg-4{
-    padding: 0px;
+  .work-section{
+    padding:0px;
+    margin:0px;
   }
+
+  h3.work-title{
+    margin-top: 2em;
+    font-size: 75px;
+    font-weight: bolder;
+  }
+
+  p.work-description{
+    margin-top: 1.5em;
+    margin-bottom:9em;
+    font-size: 15px;
+
+  }
+
+button.btn-work{
+  margin-top: 4em;
+}
+
+/*=======================Strategic section*/
+.strategic-section{
+  margin-top: 13em;
+  margin-bottom: 10em;
+}
+
+img.studio-img{
+  position: absolute;
+  left: 45em;
+  top: 35em;
+  border: 30px solid white;
+}
+
+.strategic-info{
+  margin-top: 0px;
+}
+
+h4.strategic-title{
+  margin-top:0px;
+  padding-top:0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 85px;
+  font-weight: bolder;
+}
+
+p.strategic-text{
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+}
 
 
 /*======================== Card 2 */
@@ -140,8 +190,9 @@ h5.card-font{
   font-weight: bold;
 }
 
-/*================Newsletter section*/
+/*================Hyistory section*/
 .history-section{
+  height: 550px;
   margin-top: 140px;
   background-color: red;
 }
@@ -151,8 +202,9 @@ h4.history-head{
   margin-left: 40px;
   padding-right: 30px;
   padding-left: 30px;
-  font-size: 40px;
+  font-size: 75px;
   font-weight: bold;
+  color: white;
 }
 
 p.history-text{
@@ -160,6 +212,8 @@ p.history-text{
   margin-left: 40px;
   padding-right: 30px;
   padding-left: 30px;
+  font-size: 15px;
+  color: white;
 } 
 /*================Footer====================*/
 
