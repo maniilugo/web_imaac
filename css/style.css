@@ -107,64 +107,29 @@ h2.welcome-text{
 }
 
 
-/* Section 1 ===============================*/
+/* Work section  ===============================*/
   .section-1{
     padding: 0px;
     height: 795px;
     background-color: red;
   }
 
-
-  .work-video{
-    width: 850px;
-    height: 822px;
+  .col-lg-4{
+    padding: 0px;
   }
 
 
-  
-
-
- /*========================= Menor a 600px ===========================*/ 
-  @media only screen and (max-width: 600px) {
-    .work-video{
-      width: 350px;
-      height: 222px;
-  }
-}
-
-/*========================= Menor a 768px ===========================*/ 
-@media only screen and (max-width: 768px) {
-  .work-video{
-    width: 780px;
-    height: 452px;
-}
-}
-
-/*========================= Menor a 992px ===========================*/ 
-@media only screen and (max-width: 992px) {
-  .work-video{
-    width: 450px;
-    height: 322px;
-}
-}
-
-/*========================= Menor a 992px ===========================*/ 
-@media only screen and (max-width: 1200px) {
-  .work-video{
-    width: 550px;
-    height: 322px;
-}
-}
-
-
-
-/*======================== Section 2 */
+/*======================== Card 2 */
 
 .card{
     margin: 0px;
     margin-top: -50px;
     padding: 0px;
     border: 0px none;  
+}
+
+.card-body{
+  border: 0px none;
 }
 
 
@@ -176,11 +141,26 @@ h5.card-font{
 }
 
 /*================Newsletter section*/
-.newsletter-section{
-  height: 400px;
+.history-section{
+  margin-top: 140px;
   background-color: red;
 }
 
+h4.history-head{
+  margin-top: 30px;
+  margin-left: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p.history-text{
+  margin-top: 20px;
+  margin-left: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+} 
 /*================Footer====================*/
 
 .footer-row{
