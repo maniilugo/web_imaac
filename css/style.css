@@ -119,6 +119,11 @@ h2.welcome-text{
     margin:0px;
   }
 
+  figcaption{
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
   h3.work-title{
     margin-top: 2em;
     font-size: 75px;
@@ -143,10 +148,12 @@ button.btn-work{
 }
 
 img.studio-img{
+  height: 450px;
+  width: 850px;
   position: absolute;
   left: 45em;
   top: 35em;
-  border: 30px solid white;
+  border: 20px solid white;
 }
 
 .strategic-info{
@@ -174,27 +181,6 @@ a.work-button{
 }
 
 
-/*======================== Card 2 */
-
-.card{
-    margin: 0px;
-    margin-top: -50px;
-    padding: 0px;
-    border: 0px none;  
-}
-
-.card-body{
-  border: 0px none;
-}
-
-
-h5.card-font{
-  margin-bottom: 5px;
-  padding: 0px;
-  font-size: 25px;
-  font-weight: bold;
-}
-
 /*================Hyistory section*/
 .history-section{
   height: 550px;
@@ -220,6 +206,11 @@ p.history-text{
   font-size: 15px;
   color: white;
 } 
+
+.btn-about{
+  padding-left: 70px;
+}
+
 /*================Footer====================*/
 
 .footer-row{
