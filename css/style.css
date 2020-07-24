@@ -161,6 +161,73 @@ img.studio-img{
   border: 20px solid white;
 }
 
+/*Menor a >1650*/
+@media only screen and (max-width: 1650px){
+  img.studio-img{
+    height: 350px;
+    width: 650px;
+    position: absolute;
+    left: 25em;
+    top: 45em;
+    border: 20px solid white;
+  }
+}
+
+/*Menor a >1550px*/
+@media only screen and (max-width: 1550px){
+  img.studio-img{
+    height: 350px;
+    width: 650px;
+    position: absolute;
+    left: 25em;
+    top: 45em;
+    border: 20px solid white;
+  }
+}
+
+/*Menor a >1450px*/
+@media only screen and (max-width: 1450px){
+  img.studio-img{
+    height: 350px;
+    width: 650px;
+    position: absolute;
+    left: 4em;
+    top: 40em;
+    border: 20px solid white;
+  }
+}
+
+/*Menor a >1350px*/
+@media only screen and (max-width: 1350px){
+  img.studio-img{
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    left: 10em;
+    top: 40em;
+    border: 20px solid white;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  img.studio-img{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  img.studio-img{
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  img.studio-img{
+  display: none;
+  }
+}
+
+
 .strategic-info{
   margin-top: 0px;
 }
@@ -188,7 +255,7 @@ a.work-button{
 
 /*================Hyistory section*/
 .history-section{
-  height: 550px;
+  height: 650px;
   margin-top: 140px;
   background-color: red;
 }
