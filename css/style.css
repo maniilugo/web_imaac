@@ -283,6 +283,19 @@ p.history-text{
   padding-left: 70px;
 }
 
+
+/*Case study=====================*/
+.big-banner{
+  height: 650px;
+  background-image: url(../img/work-1.jpg);
+}
+
+.head-text{
+  margin-top: 3em;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
 /*================Footer====================*/
 
 .footer-row{
