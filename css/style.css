@@ -296,6 +296,14 @@ p.history-text{
   font-weight: bolder;
 }
 
+/*==== Case Study ========================*/
+
+.wrapper{
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
 /*================Footer====================*/
 
 .footer-row{
