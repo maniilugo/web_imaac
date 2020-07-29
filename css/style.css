@@ -286,8 +286,64 @@ p.history-text{
 
 /*Case study=====================*/
 .big-banner{
-  height: 650px;
+  height: 970px;
   background-image: url(../img/work-1.jpg);
+}
+
+/* Big Banner Menor a >1650*/
+@media only screen and (max-width: 1650px){
+  .big-banner{
+    height: 650px;
+    background-image: url(../img/work-1.jpg);
+  }
+}
+
+/*Big Banner Menor a >1550px*/
+@media only screen and (max-width: 1550px){
+  .big-banner{
+    height: 650px;
+    background-image: url(../img/work-1.jpg);
+  }
+}
+
+/*Big Banner Menor a >1450px*/
+@media only screen and (max-width: 1450px){
+  .big-banner{
+    height: 650px;
+    background-image: url(../img/work-1.jpg);
+  }
+}
+
+/*Big Banner Menor a >1350px*/
+@media only screen and (max-width: 1350px){
+  .big-banner{
+    height: 650px;
+    background-image: url(../img/work-1.jpg);
+  }
+}
+
+/*Big Banner Menor a >1200px*/
+@media only screen and (max-width: 1200px){
+  .big-banner{
+    height: 650px;
+    background-image: url(../img/work-1.jpg);
+  }
+}
+
+/*Big Banner Menor a >992px*/
+@media only screen and (max-width: 992px){
+  .big-banner{
+    height: 650px;
+    background-image: url(../img/work-1.jpg);
+  }
+}
+
+/*Big Banner Menor a >768px*/
+@media only screen and (max-width: 768px){
+  .big-banner{
+    height: 650px;
+    background-image: url(../img/work-1.jpg);
+  }
 }
 
 .head-text{
