@@ -285,79 +285,64 @@ p.history-text{
 
 
 /*Case study=====================*/
-.big-banner{
-  height: 970px;
-  background-image: url(../img/work-1.jpg);
+.jumbotron{
+  margin-top: 8em;
+  margin-bottom: 0px;
+  height: 550px;
+  background-image: url(https://humaan.com/wp-content/uploads/2020/04/uxui-hero-1.jpg);
 }
 
-/* Big Banner Menor a >1650*/
-@media only screen and (max-width: 1650px){
-  .big-banner{
-    height: 650px;
-    background-image: url(../img/work-1.jpg);
-  }
-}
-
-/*Big Banner Menor a >1550px*/
-@media only screen and (max-width: 1550px){
-  .big-banner{
-    height: 650px;
-    background-image: url(../img/work-1.jpg);
-  }
-}
-
-/*Big Banner Menor a >1450px*/
-@media only screen and (max-width: 1450px){
-  .big-banner{
-    height: 650px;
-    background-image: url(../img/work-1.jpg);
-  }
-}
-
-/*Big Banner Menor a >1350px*/
-@media only screen and (max-width: 1350px){
-  .big-banner{
-    height: 650px;
-    background-image: url(../img/work-1.jpg);
-  }
-}
-
-/*Big Banner Menor a >1200px*/
-@media only screen and (max-width: 1200px){
-  .big-banner{
-    height: 650px;
-    background-image: url(../img/work-1.jpg);
-  }
-}
-
-/*Big Banner Menor a >992px*/
-@media only screen and (max-width: 992px){
-  .big-banner{
-    height: 650px;
-    background-image: url(../img/work-1.jpg);
-  }
-}
-
-/*Big Banner Menor a >768px*/
-@media only screen and (max-width: 768px){
-  .big-banner{
-    height: 650px;
-    background-image: url(../img/work-1.jpg);
-  }
-}
-
-.head-text{
-  margin-top: 3em;
-  font-size: 60px;
+.jumbotron-head{
   font-weight: bolder;
+  text-shadow: .5px .5px 10px black;
+}
+
+.text-heading{
+  margin-top: 10em;
+  color: white;
+}
+
+.case-background{
+  height: 550px;
+  width: 100%;
+  background-color: #0a0724;
+}
+
+.case-col{
+  margin-left: 50px;
+}
+
+.title-case{
+  margin-top: 4em;
+  color: white;
+  font-size: 40px;
+}
+
+.list-case{
+  margin-top: 10em;
+  margin-left: 20em;
+  color: white;
+}
+
+.list-group-item{
+  background-color:#0a0724;
+  border: none;
 }
 
 /*==== Case Study ========================*/
 
-.wrapper{
-  height: 100%;
-  display: flex;
-  align-items: stretch;
+.no-padding{
+  padding: 0px;
+}
+
+.description-mockup{
+  margin-top: 7em;
+  margin-bottom: 14em;
+}
+
+.font-mockup-description{
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 /*================Footer====================*/
