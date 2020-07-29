@@ -345,6 +345,31 @@ p.history-text{
   font-weight: lighter;
 }
 
+/*==============visit section=============================*/
+
+.visit-section{
+  margin-top: 12em;
+  margin-bottom: 20em;
+}
+
+.visit-head{
+  margin-bottom: 2em;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.visit-text{
+  margin-bottom: 3em;
+  font-size: 20px;
+}
+
+.visit-button{
+  font-size: 18px;
+  font-weight: normal;
+  height: 50px;
+  width: 170px;
+}
+
 /*================Footer====================*/
 
 .footer-row{
